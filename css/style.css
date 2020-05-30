@@ -1,0 +1,44 @@
+﻿.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar ul.nav li.active a, .navbar ul.nav li.open > a {
+	background: transparent !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .nav .dropdown-menu li a, .navbar .nav .dropdown-menu li a:hover, .navbar .nav .dropdown-menu li a:focus {
+	padding: 8px 20px;
+	line-height: normal;
+}
+.navbar .navbar-form {
+	border: none;
+}
+.navbar .navbar-form-wrapper {
+	padding: 0 15px;
+}
+.navbar .login-form label {
+	color: #888;
+	font-weight: normal;
+}
+.navbar .dropdown-menu.login-form {
+	width: 280px;
+	padding: 20px;
+	left: -40px;
+	right: 0;
+	font-size: 14px;
+}
+.navbar .nav .dropdown-menu.login-form a {
+	padding: 0 !important;
+	color: #5c6ac4;
+	font-weight: normal;
+}
+.navbar .nav .dropdown-menu.login-form a:hover{
+	text-decoration: underline;
+}
+.navbar .dropdown-menu.login-form .checkbox-inline {
+	margin-top: 10px;
+}
